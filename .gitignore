@@ -1,3 +1,6 @@
+.deps/
+lesson??
+*.o
 Data06/Makefile
 Data07/Makefile
 Data08/Makefile

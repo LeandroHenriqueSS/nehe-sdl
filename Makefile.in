@@ -1,0 +1,665 @@
+# Makefile.in generated automatically by automake 1.4-p6 from Makefile.am
+
+# Copyright (C) 1994, 1995-8, 1999, 2001 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+
+SHELL = @SHELL@
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
+
+DESTDIR =
+
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+
+top_builddir = .
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@ $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
+
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+host_alias = @host_alias@
+host_triplet = @host@
+CC = @CC@
+GL_LIBS = @GL_LIBS@
+HAVE_LIB = @HAVE_LIB@
+LIB = @LIB@
+LTLIB = @LTLIB@
+MAKEINFO = @MAKEINFO@
+MATHLIB = @MATHLIB@
+PACKAGE = @PACKAGE@
+SDL_CFLAGS = @SDL_CFLAGS@
+SDL_CONFIG = @SDL_CONFIG@
+SDL_LIBS = @SDL_LIBS@
+SOUND_LIBS = @SOUND_LIBS@
+VERSION = @VERSION@
+
+SUBDIRS = Data06 Data07 Data08 Data09 Data10 Data11 Data12 Data16 Data17           Data18 Data19 Data20 Data21 Data22 Data23 Data24 Data25 Data26           Data27 Data28 Data29 Data30
+
+
+EXTRA_DIST = autogen.sh VisualC.zip Glext.h
+
+noinst_PROGRAMS = lesson02 lesson03 lesson04 lesson05 lesson06 lesson07                   lesson08 lesson09 lesson10 lesson11 lesson12 lesson16                   lesson17 lesson18 lesson19 lesson20 lesson21 lesson22                   lesson23 lesson24 lesson25 lesson26 lesson27 lesson28                   lesson29 lesson30
+
+
+lesson02_LDADD = @GL_LIBS@
+lesson03_LDADD = @GL_LIBS@
+lesson04_LDADD = @GL_LIBS@
+lesson05_LDADD = @GL_LIBS@
+lesson06_LDADD = @GL_LIBS@
+lesson07_LDADD = @GL_LIBS@
+lesson08_LDADD = @GL_LIBS@
+lesson09_LDADD = @GL_LIBS@
+lesson10_LDADD = @GL_LIBS@
+lesson11_LDADD = @GL_LIBS@
+lesson12_LDADD = @GL_LIBS@
+lesson16_LDADD = @GL_LIBS@
+lesson17_LDADD = @GL_LIBS@
+lesson18_LDADD = @GL_LIBS@
+lesson19_LDADD = @GL_LIBS@
+lesson20_LDADD = @GL_LIBS@
+lesson21_LDADD = @GL_LIBS@ @SOUND_LIBS@
+lesson22_LDADD = @GL_LIBS@
+lesson23_LDADD = @GL_LIBS@
+lesson24_LDADD = @GL_LIBS@
+lesson25_LDADD = @GL_LIBS@
+lesson26_LDADD = @GL_LIBS@
+lesson27_LDADD = @GL_LIBS@
+lesson28_LDADD = @GL_LIBS@
+lesson29_LDADD = @GL_LIBS@
+lesson30_LDADD = @GL_LIBS@
+ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
+mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+CONFIG_CLEAN_FILES = 
+PROGRAMS =  $(noinst_PROGRAMS)
+
+
+DEFS = @DEFS@ -I. -I$(srcdir) 
+CPPFLAGS = @CPPFLAGS@
+LDFLAGS = @LDFLAGS@
+LIBS = @LIBS@
+X_CFLAGS = @X_CFLAGS@
+X_LIBS = @X_LIBS@
+X_EXTRA_LIBS = @X_EXTRA_LIBS@
+X_PRE_LIBS = @X_PRE_LIBS@
+lesson02_SOURCES = lesson02.c
+lesson02_OBJECTS =  lesson02.o
+lesson02_DEPENDENCIES = 
+lesson02_LDFLAGS = 
+lesson03_SOURCES = lesson03.c
+lesson03_OBJECTS =  lesson03.o
+lesson03_DEPENDENCIES = 
+lesson03_LDFLAGS = 
+lesson04_SOURCES = lesson04.c
+lesson04_OBJECTS =  lesson04.o
+lesson04_DEPENDENCIES = 
+lesson04_LDFLAGS = 
+lesson05_SOURCES = lesson05.c
+lesson05_OBJECTS =  lesson05.o
+lesson05_DEPENDENCIES = 
+lesson05_LDFLAGS = 
+lesson06_SOURCES = lesson06.c
+lesson06_OBJECTS =  lesson06.o
+lesson06_DEPENDENCIES = 
+lesson06_LDFLAGS = 
+lesson07_SOURCES = lesson07.c
+lesson07_OBJECTS =  lesson07.o
+lesson07_DEPENDENCIES = 
+lesson07_LDFLAGS = 
+lesson08_SOURCES = lesson08.c
+lesson08_OBJECTS =  lesson08.o
+lesson08_DEPENDENCIES = 
+lesson08_LDFLAGS = 
+lesson09_SOURCES = lesson09.c
+lesson09_OBJECTS =  lesson09.o
+lesson09_DEPENDENCIES = 
+lesson09_LDFLAGS = 
+lesson10_SOURCES = lesson10.c
+lesson10_OBJECTS =  lesson10.o
+lesson10_DEPENDENCIES = 
+lesson10_LDFLAGS = 
+lesson11_SOURCES = lesson11.c
+lesson11_OBJECTS =  lesson11.o
+lesson11_DEPENDENCIES = 
+lesson11_LDFLAGS = 
+lesson12_SOURCES = lesson12.c
+lesson12_OBJECTS =  lesson12.o
+lesson12_DEPENDENCIES = 
+lesson12_LDFLAGS = 
+lesson16_SOURCES = lesson16.c
+lesson16_OBJECTS =  lesson16.o
+lesson16_DEPENDENCIES = 
+lesson16_LDFLAGS = 
+lesson17_SOURCES = lesson17.c
+lesson17_OBJECTS =  lesson17.o
+lesson17_DEPENDENCIES = 
+lesson17_LDFLAGS = 
+lesson18_SOURCES = lesson18.c
+lesson18_OBJECTS =  lesson18.o
+lesson18_DEPENDENCIES = 
+lesson18_LDFLAGS = 
+lesson19_SOURCES = lesson19.c
+lesson19_OBJECTS =  lesson19.o
+lesson19_DEPENDENCIES = 
+lesson19_LDFLAGS = 
+lesson20_SOURCES = lesson20.c
+lesson20_OBJECTS =  lesson20.o
+lesson20_DEPENDENCIES = 
+lesson20_LDFLAGS = 
+lesson21_SOURCES = lesson21.c
+lesson21_OBJECTS =  lesson21.o
+lesson21_DEPENDENCIES = 
+lesson21_LDFLAGS = 
+lesson22_SOURCES = lesson22.c
+lesson22_OBJECTS =  lesson22.o
+lesson22_DEPENDENCIES = 
+lesson22_LDFLAGS = 
+lesson23_SOURCES = lesson23.c
+lesson23_OBJECTS =  lesson23.o
+lesson23_DEPENDENCIES = 
+lesson23_LDFLAGS = 
+lesson24_SOURCES = lesson24.c
+lesson24_OBJECTS =  lesson24.o
+lesson24_DEPENDENCIES = 
+lesson24_LDFLAGS = 
+lesson25_SOURCES = lesson25.c
+lesson25_OBJECTS =  lesson25.o
+lesson25_DEPENDENCIES = 
+lesson25_LDFLAGS = 
+lesson26_SOURCES = lesson26.c
+lesson26_OBJECTS =  lesson26.o
+lesson26_DEPENDENCIES = 
+lesson26_LDFLAGS = 
+lesson27_SOURCES = lesson27.c
+lesson27_OBJECTS =  lesson27.o
+lesson27_DEPENDENCIES = 
+lesson27_LDFLAGS = 
+lesson28_SOURCES = lesson28.c
+lesson28_OBJECTS =  lesson28.o
+lesson28_DEPENDENCIES = 
+lesson28_LDFLAGS = 
+lesson29_SOURCES = lesson29.c
+lesson29_OBJECTS =  lesson29.o
+lesson29_DEPENDENCIES = 
+lesson29_LDFLAGS = 
+lesson30_SOURCES = lesson30.c
+lesson30_OBJECTS =  lesson30.o
+lesson30_DEPENDENCIES = 
+lesson30_LDFLAGS = 
+CFLAGS = @CFLAGS@
+COMPILE = $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CFLAGS) $(CFLAGS)
+CCLD = $(CC)
+LINK = $(CCLD) $(AM_CFLAGS) $(CFLAGS) $(LDFLAGS) -o $@
+DIST_COMMON =  README Makefile.am Makefile.in acinclude.m4 aclocal.m4 \
+config.guess config.sub configure configure.in install-sh missing \
+mkinstalldirs
+
+
+DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
+
+TAR = gtar
+GZIP_ENV = --best
+DEP_FILES =  .deps/lesson02.P .deps/lesson03.P .deps/lesson04.P \
+.deps/lesson05.P .deps/lesson06.P .deps/lesson07.P .deps/lesson08.P \
+.deps/lesson09.P .deps/lesson10.P .deps/lesson11.P .deps/lesson12.P \
+.deps/lesson16.P .deps/lesson17.P .deps/lesson18.P .deps/lesson19.P \
+.deps/lesson20.P .deps/lesson21.P .deps/lesson22.P .deps/lesson23.P \
+.deps/lesson24.P .deps/lesson25.P .deps/lesson26.P .deps/lesson27.P \
+.deps/lesson28.P .deps/lesson29.P .deps/lesson30.P
+SOURCES = lesson02.c lesson03.c lesson04.c lesson05.c lesson06.c lesson07.c lesson08.c lesson09.c lesson10.c lesson11.c lesson12.c lesson16.c lesson17.c lesson18.c lesson19.c lesson20.c lesson21.c lesson22.c lesson23.c lesson24.c lesson25.c lesson26.c lesson27.c lesson28.c lesson29.c lesson30.c
+OBJECTS = lesson02.o lesson03.o lesson04.o lesson05.o lesson06.o lesson07.o lesson08.o lesson09.o lesson10.o lesson11.o lesson12.o lesson16.o lesson17.o lesson18.o lesson19.o lesson20.o lesson21.o lesson22.o lesson23.o lesson24.o lesson25.o lesson26.o lesson27.o lesson28.o lesson29.o lesson30.o
+
+all: all-redirect
+.SUFFIXES:
+.SUFFIXES: .S .c .o .s
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.in $(ACLOCAL_M4) 
+	cd $(top_srcdir) && $(AUTOMAKE) --foreign Makefile
+
+Makefile: $(srcdir)/Makefile.in  $(top_builddir)/config.status $(BUILT_SOURCES)
+	cd $(top_builddir) \
+	  && CONFIG_FILES=$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+$(ACLOCAL_M4):  configure.in  acinclude.m4
+	cd $(srcdir) && $(ACLOCAL)
+
+config.status: $(srcdir)/configure $(CONFIG_STATUS_DEPENDENCIES)
+	$(SHELL) ./config.status --recheck
+$(srcdir)/configure: $(srcdir)/configure.in $(ACLOCAL_M4) $(CONFIGURE_DEPENDENCIES)
+	cd $(srcdir) && $(AUTOCONF)
+
+mostlyclean-noinstPROGRAMS:
+
+clean-noinstPROGRAMS:
+	-test -z "$(noinst_PROGRAMS)" || rm -f $(noinst_PROGRAMS)
+
+distclean-noinstPROGRAMS:
+
+maintainer-clean-noinstPROGRAMS:
+
+.s.o:
+	$(COMPILE) -c $<
+
+.S.o:
+	$(COMPILE) -c $<
+
+mostlyclean-compile:
+	-rm -f *.o core *.core
+
+clean-compile:
+
+distclean-compile:
+	-rm -f *.tab.c
+
+maintainer-clean-compile:
+
+lesson02: $(lesson02_OBJECTS) $(lesson02_DEPENDENCIES)
+	@rm -f lesson02
+	$(LINK) $(lesson02_LDFLAGS) $(lesson02_OBJECTS) $(lesson02_LDADD) $(LIBS)
+
+lesson03: $(lesson03_OBJECTS) $(lesson03_DEPENDENCIES)
+	@rm -f lesson03
+	$(LINK) $(lesson03_LDFLAGS) $(lesson03_OBJECTS) $(lesson03_LDADD) $(LIBS)
+
+lesson04: $(lesson04_OBJECTS) $(lesson04_DEPENDENCIES)
+	@rm -f lesson04
+	$(LINK) $(lesson04_LDFLAGS) $(lesson04_OBJECTS) $(lesson04_LDADD) $(LIBS)
+
+lesson05: $(lesson05_OBJECTS) $(lesson05_DEPENDENCIES)
+	@rm -f lesson05
+	$(LINK) $(lesson05_LDFLAGS) $(lesson05_OBJECTS) $(lesson05_LDADD) $(LIBS)
+
+lesson06: $(lesson06_OBJECTS) $(lesson06_DEPENDENCIES)
+	@rm -f lesson06
+	$(LINK) $(lesson06_LDFLAGS) $(lesson06_OBJECTS) $(lesson06_LDADD) $(LIBS)
+
+lesson07: $(lesson07_OBJECTS) $(lesson07_DEPENDENCIES)
+	@rm -f lesson07
+	$(LINK) $(lesson07_LDFLAGS) $(lesson07_OBJECTS) $(lesson07_LDADD) $(LIBS)
+
+lesson08: $(lesson08_OBJECTS) $(lesson08_DEPENDENCIES)
+	@rm -f lesson08
+	$(LINK) $(lesson08_LDFLAGS) $(lesson08_OBJECTS) $(lesson08_LDADD) $(LIBS)
+
+lesson09: $(lesson09_OBJECTS) $(lesson09_DEPENDENCIES)
+	@rm -f lesson09
+	$(LINK) $(lesson09_LDFLAGS) $(lesson09_OBJECTS) $(lesson09_LDADD) $(LIBS)
+
+lesson10: $(lesson10_OBJECTS) $(lesson10_DEPENDENCIES)
+	@rm -f lesson10
+	$(LINK) $(lesson10_LDFLAGS) $(lesson10_OBJECTS) $(lesson10_LDADD) $(LIBS)
+
+lesson11: $(lesson11_OBJECTS) $(lesson11_DEPENDENCIES)
+	@rm -f lesson11
+	$(LINK) $(lesson11_LDFLAGS) $(lesson11_OBJECTS) $(lesson11_LDADD) $(LIBS)
+
+lesson12: $(lesson12_OBJECTS) $(lesson12_DEPENDENCIES)
+	@rm -f lesson12
+	$(LINK) $(lesson12_LDFLAGS) $(lesson12_OBJECTS) $(lesson12_LDADD) $(LIBS)
+
+lesson16: $(lesson16_OBJECTS) $(lesson16_DEPENDENCIES)
+	@rm -f lesson16
+	$(LINK) $(lesson16_LDFLAGS) $(lesson16_OBJECTS) $(lesson16_LDADD) $(LIBS)
+
+lesson17: $(lesson17_OBJECTS) $(lesson17_DEPENDENCIES)
+	@rm -f lesson17
+	$(LINK) $(lesson17_LDFLAGS) $(lesson17_OBJECTS) $(lesson17_LDADD) $(LIBS)
+
+lesson18: $(lesson18_OBJECTS) $(lesson18_DEPENDENCIES)
+	@rm -f lesson18
+	$(LINK) $(lesson18_LDFLAGS) $(lesson18_OBJECTS) $(lesson18_LDADD) $(LIBS)
+
+lesson19: $(lesson19_OBJECTS) $(lesson19_DEPENDENCIES)
+	@rm -f lesson19
+	$(LINK) $(lesson19_LDFLAGS) $(lesson19_OBJECTS) $(lesson19_LDADD) $(LIBS)
+
+lesson20: $(lesson20_OBJECTS) $(lesson20_DEPENDENCIES)
+	@rm -f lesson20
+	$(LINK) $(lesson20_LDFLAGS) $(lesson20_OBJECTS) $(lesson20_LDADD) $(LIBS)
+
+lesson21: $(lesson21_OBJECTS) $(lesson21_DEPENDENCIES)
+	@rm -f lesson21
+	$(LINK) $(lesson21_LDFLAGS) $(lesson21_OBJECTS) $(lesson21_LDADD) $(LIBS)
+
+lesson22: $(lesson22_OBJECTS) $(lesson22_DEPENDENCIES)
+	@rm -f lesson22
+	$(LINK) $(lesson22_LDFLAGS) $(lesson22_OBJECTS) $(lesson22_LDADD) $(LIBS)
+
+lesson23: $(lesson23_OBJECTS) $(lesson23_DEPENDENCIES)
+	@rm -f lesson23
+	$(LINK) $(lesson23_LDFLAGS) $(lesson23_OBJECTS) $(lesson23_LDADD) $(LIBS)
+
+lesson24: $(lesson24_OBJECTS) $(lesson24_DEPENDENCIES)
+	@rm -f lesson24
+	$(LINK) $(lesson24_LDFLAGS) $(lesson24_OBJECTS) $(lesson24_LDADD) $(LIBS)
+
+lesson25: $(lesson25_OBJECTS) $(lesson25_DEPENDENCIES)
+	@rm -f lesson25
+	$(LINK) $(lesson25_LDFLAGS) $(lesson25_OBJECTS) $(lesson25_LDADD) $(LIBS)
+
+lesson26: $(lesson26_OBJECTS) $(lesson26_DEPENDENCIES)
+	@rm -f lesson26
+	$(LINK) $(lesson26_LDFLAGS) $(lesson26_OBJECTS) $(lesson26_LDADD) $(LIBS)
+
+lesson27: $(lesson27_OBJECTS) $(lesson27_DEPENDENCIES)
+	@rm -f lesson27
+	$(LINK) $(lesson27_LDFLAGS) $(lesson27_OBJECTS) $(lesson27_LDADD) $(LIBS)
+
+lesson28: $(lesson28_OBJECTS) $(lesson28_DEPENDENCIES)
+	@rm -f lesson28
+	$(LINK) $(lesson28_LDFLAGS) $(lesson28_OBJECTS) $(lesson28_LDADD) $(LIBS)
+
+lesson29: $(lesson29_OBJECTS) $(lesson29_DEPENDENCIES)
+	@rm -f lesson29
+	$(LINK) $(lesson29_LDFLAGS) $(lesson29_OBJECTS) $(lesson29_LDADD) $(LIBS)
+
+lesson30: $(lesson30_OBJECTS) $(lesson30_DEPENDENCIES)
+	@rm -f lesson30
+	$(LINK) $(lesson30_LDFLAGS) $(lesson30_OBJECTS) $(lesson30_LDADD) $(LIBS)
+
+# This directory's subdirectories are mostly independent; you can cd
+# into them and run `make' without going through this Makefile.
+# To change the values of `make' variables: instead of editing Makefiles,
+# (1) if the variable is set in `config.status', edit `config.status'
+#     (which will cause the Makefiles to be regenerated when you run `make');
+# (2) otherwise, pass the desired values on the `make' command line.
+
+@SET_MAKE@
+
+all-recursive install-data-recursive install-exec-recursive \
+installdirs-recursive install-recursive uninstall-recursive  \
+check-recursive installcheck-recursive info-recursive dvi-recursive:
+	@set fnord $(MAKEFLAGS); amf=$$2; \
+	dot_seen=no; \
+	target=`echo $@ | sed s/-recursive//`; \
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	  echo "Making $$target in $$subdir"; \
+	  if test "$$subdir" = "."; then \
+	    dot_seen=yes; \
+	    local_target="$$target-am"; \
+	  else \
+	    local_target="$$target"; \
+	  fi; \
+	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+	   || case "$$amf" in *=*) exit 1;; *k*) fail=yes;; *) exit 1;; esac; \
+	done; \
+	if test "$$dot_seen" = "no"; then \
+	  $(MAKE) $(AM_MAKEFLAGS) "$$target-am" || exit 1; \
+	fi; test -z "$$fail"
+
+mostlyclean-recursive clean-recursive distclean-recursive \
+maintainer-clean-recursive:
+	@set fnord $(MAKEFLAGS); amf=$$2; \
+	dot_seen=no; \
+	rev=''; list='$(SUBDIRS)'; for subdir in $$list; do \
+	  rev="$$subdir $$rev"; \
+	  test "$$subdir" != "." || dot_seen=yes; \
+	done; \
+	test "$$dot_seen" = "no" && rev=". $$rev"; \
+	target=`echo $@ | sed s/-recursive//`; \
+	for subdir in $$rev; do \
+	  echo "Making $$target in $$subdir"; \
+	  if test "$$subdir" = "."; then \
+	    local_target="$$target-am"; \
+	  else \
+	    local_target="$$target"; \
+	  fi; \
+	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
+	   || case "$$amf" in *=*) exit 1;; *k*) fail=yes;; *) exit 1;; esac; \
+	done && test -z "$$fail"
+tags-recursive:
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	  test "$$subdir" = . || (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) tags); \
+	done
+
+tags: TAGS
+
+ID: $(HEADERS) $(SOURCES) $(LISP)
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	here=`pwd` && cd $(srcdir) \
+	  && mkid -f$$here/ID $$unique $(LISP)
+
+TAGS: tags-recursive $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) $(LISP)
+	tags=; \
+	here=`pwd`; \
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+   if test "$$subdir" = .; then :; else \
+	    test -f $$subdir/TAGS && tags="$$tags -i $$here/$$subdir/TAGS"; \
+   fi; \
+	done; \
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	test -z "$(ETAGS_ARGS)$$unique$(LISP)$$tags" \
+	  || (cd $(srcdir) && etags $(ETAGS_ARGS) $$tags  $$unique $(LISP) -o $$here/TAGS)
+
+mostlyclean-tags:
+
+clean-tags:
+
+distclean-tags:
+	-rm -f TAGS ID
+
+maintainer-clean-tags:
+
+distdir = $(PACKAGE)-$(VERSION)
+top_distdir = $(distdir)
+
+# This target untars the dist file and tries a VPATH configuration.  Then
+# it guarantees that the distribution is self-contained by making another
+# tarfile.
+distcheck: dist
+	-rm -rf $(distdir)
+	GZIP=$(GZIP_ENV) $(TAR) zxf $(distdir).tar.gz
+	mkdir $(distdir)/=build
+	mkdir $(distdir)/=inst
+	dc_install_base=`cd $(distdir)/=inst && pwd`; \
+	cd $(distdir)/=build \
+	  && ../configure --srcdir=.. --prefix=$$dc_install_base \
+	  && $(MAKE) $(AM_MAKEFLAGS) \
+	  && $(MAKE) $(AM_MAKEFLAGS) dvi \
+	  && $(MAKE) $(AM_MAKEFLAGS) check \
+	  && $(MAKE) $(AM_MAKEFLAGS) install \
+	  && $(MAKE) $(AM_MAKEFLAGS) installcheck \
+	  && $(MAKE) $(AM_MAKEFLAGS) dist
+	-rm -rf $(distdir)
+	@banner="$(distdir).tar.gz is ready for distribution"; \
+	dashes=`echo "$$banner" | sed s/./=/g`; \
+	echo "$$dashes"; \
+	echo "$$banner"; \
+	echo "$$dashes"
+dist: distdir
+	-chmod -R a+r $(distdir)
+	GZIP=$(GZIP_ENV) $(TAR) chozf $(distdir).tar.gz $(distdir)
+	-rm -rf $(distdir)
+dist-all: distdir
+	-chmod -R a+r $(distdir)
+	GZIP=$(GZIP_ENV) $(TAR) chozf $(distdir).tar.gz $(distdir)
+	-rm -rf $(distdir)
+distdir: $(DISTFILES)
+	-rm -rf $(distdir)
+	mkdir $(distdir)
+	-chmod 777 $(distdir)
+	here=`cd $(top_builddir) && pwd`; \
+	top_distdir=`cd $(distdir) && pwd`; \
+	distdir=`cd $(distdir) && pwd`; \
+	cd $(top_srcdir) \
+	  && $(AUTOMAKE) --include-deps --build-dir=$$here --srcdir-name=$(top_srcdir) --output-dir=$$top_distdir --foreign Makefile
+	@for file in $(DISTFILES); do \
+	  d=$(srcdir); \
+	  if test -d $$d/$$file; then \
+	    cp -pr $$d/$$file $(distdir)/$$file; \
+	  else \
+	    test -f $(distdir)/$$file \
+	    || ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	    || cp -p $$d/$$file $(distdir)/$$file || :; \
+	  fi; \
+	done
+	for subdir in $(SUBDIRS); do \
+	  if test "$$subdir" = .; then :; else \
+	    test -d $(distdir)/$$subdir \
+	    || mkdir $(distdir)/$$subdir \
+	    || exit 1; \
+	    chmod 777 $(distdir)/$$subdir; \
+	    (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) top_distdir=../$(distdir) distdir=../$(distdir)/$$subdir distdir) \
+	      || exit 1; \
+	  fi; \
+	done
+
+DEPS_MAGIC := $(shell mkdir .deps > /dev/null 2>&1 || :)
+
+-include $(DEP_FILES)
+
+mostlyclean-depend:
+
+clean-depend:
+
+distclean-depend:
+	-rm -rf .deps
+
+maintainer-clean-depend:
+
+%.o: %.c
+	@echo '$(COMPILE) -c $<'; \
+	$(COMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-cp .deps/$(*F).pp .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	  | sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	    >> .deps/$(*F).P; \
+	rm .deps/$(*F).pp
+
+%.lo: %.c
+	@echo '$(LTCOMPILE) -c $<'; \
+	$(LTCOMPILE) -Wp,-MD,.deps/$(*F).pp -c $<
+	@-sed -e 's/^\([^:]*\)\.o[ 	]*:/\1.lo \1.o :/' \
+	  < .deps/$(*F).pp > .deps/$(*F).P; \
+	tr ' ' '\012' < .deps/$(*F).pp \
+	  | sed -e 's/^\\$$//' -e '/^$$/ d' -e '/:$$/ d' -e 's/$$/ :/' \
+	    >> .deps/$(*F).P; \
+	rm -f .deps/$(*F).pp
+info-am:
+info: info-recursive
+dvi-am:
+dvi: dvi-recursive
+check-am: all-am
+check: check-recursive
+installcheck-am:
+installcheck: installcheck-recursive
+install-exec-am:
+install-exec: install-exec-recursive
+
+install-data-am:
+install-data: install-data-recursive
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+install: install-recursive
+uninstall-am:
+uninstall: uninstall-recursive
+all-am: Makefile $(PROGRAMS)
+all-redirect: all-recursive
+install-strip:
+	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+installdirs: installdirs-recursive
+installdirs-am:
+
+
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-rm -f Makefile $(CONFIG_CLEAN_FILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+
+maintainer-clean-generic:
+mostlyclean-am:  mostlyclean-noinstPROGRAMS mostlyclean-compile \
+		mostlyclean-tags mostlyclean-depend mostlyclean-generic
+
+mostlyclean: mostlyclean-recursive
+
+clean-am:  clean-noinstPROGRAMS clean-compile clean-tags clean-depend \
+		clean-generic mostlyclean-am
+
+clean: clean-recursive
+
+distclean-am:  distclean-noinstPROGRAMS distclean-compile distclean-tags \
+		distclean-depend distclean-generic clean-am
+
+distclean: distclean-recursive
+	-rm -f config.status
+
+maintainer-clean-am:  maintainer-clean-noinstPROGRAMS \
+		maintainer-clean-compile maintainer-clean-tags \
+		maintainer-clean-depend maintainer-clean-generic \
+		distclean-am
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+maintainer-clean: maintainer-clean-recursive
+	-rm -f config.status
+
+.PHONY: mostlyclean-noinstPROGRAMS distclean-noinstPROGRAMS \
+clean-noinstPROGRAMS maintainer-clean-noinstPROGRAMS \
+mostlyclean-compile distclean-compile clean-compile \
+maintainer-clean-compile install-data-recursive \
+uninstall-data-recursive install-exec-recursive \
+uninstall-exec-recursive installdirs-recursive uninstalldirs-recursive \
+all-recursive check-recursive installcheck-recursive info-recursive \
+dvi-recursive mostlyclean-recursive distclean-recursive clean-recursive \
+maintainer-clean-recursive tags tags-recursive mostlyclean-tags \
+distclean-tags clean-tags maintainer-clean-tags distdir \
+mostlyclean-depend distclean-depend clean-depend \
+maintainer-clean-depend info-am info dvi-am dvi check check-am \
+installcheck-am installcheck install-exec-am install-exec \
+install-data-am install-data install-am install uninstall-am uninstall \
+all-redirect all-am all installdirs-am installdirs mostlyclean-generic \
+distclean-generic clean-generic maintainer-clean-generic clean \
+mostlyclean distclean maintainer-clean
+
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:
